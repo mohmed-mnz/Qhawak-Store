@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/normalization.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>
+    Qahwak
+  </title>
+  <link rel="icon" type="image/x-icon" href="./imges/coffe icon.png">
+
+</head>
+
+<body>
+  <!-- This is My navbar component -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 container ">
+    <div class="container">
+
+      <a class="navbar-brand fw-b zoom-out" href="./index.html"><i class="bi bi-cup-hot-fill"></i> Qahwak</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex align-content-around">
+          <li class="nav-item">
+            <a class="nav-link active zoom-out" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link zoom-out" href="./store.html">Our Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link zoom-out" href="./form.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav d-flex align-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-reset fs-2 fw-b" href="index.html">
+            <i class="bi bi-cart2 "> <span id="cart-counter" class="badge rounded-pill bg-primary"></span></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navbar code-->
+
+  <!-- Making my slider -->
+
+  <div class="container  alert alert-secondary">
+    <div class="slider-container mt-1 w-100">
+      <div id="slide-number" class="slide-number" style="background-color: #e0e1e6"></div>
+      <img src="./imges/img13.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img14.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img15.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img16.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img17.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img18.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img19.jpg" alt="image coffee" class="m-auto w-100">
+      <img src="./imges/img20.jpg" alt="image coffee" class="m-auto w-100">
+    </div>
+    <div class="slider-controls d-flex justify-content-between">
+      <span id="previous" class="prev">Previous</span>
+      <span id="indicators" class="indicators"></span>
+      <span id="next" class="next">Next</span>
+    </div>
+  </div>
+
+  <!-- End of My slider -->
+
+  <!-- this is my category -->
+  <div class="container alert alert-secondary fst-italic text-center ">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img1.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img2.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img3.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 9 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img4.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img5.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img6.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img7.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 22 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-2" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./imges/img8.jpg" class="img-fluid rounded zoom-out" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 59   mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End of my category -->
+
+
+
+<div class="container alert alert-secondary  ">
+  <div id="carouselExample " class="carousel slide my-1" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"Coffee is the best thing to douse the sunrise with."</p>
+          <footer class="blockquote-footer">Drew Sirtors</footer>
+        </blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"I have measured out my life with coffee spoons."</p>
+          <footer class="blockquote-footer">T.S. Eliot</footer>
+        </blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">"Life is too short for bad coffee."</p>
+          <footer class="blockquote-footer">Unknown</footer>
+        </blockquote>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-secondary rounded-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-secondary rounded-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  </div>
+
+</div>
+
+<i class="bi bi-arrow-up-circle-fill up" id="up"></i>
+  <!-- This is My Footer -->
+  <div class="container my-0">
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out"
+            href="https://www.linkedin.com/in/muhammed-almanzalawie-5b5522196" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+          <!-- Github -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+            data-mdb-ripple-color="dark"><i class="bi bi-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark text-decoration-none zoom-out "
+          href="https://www.linkedin.com/in/muhammed-almanzalawie-5b5522196">Mnz</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+  <!-- End of .container -->
+  <!-- End My Footer -->
+  <script src="./js/SLIDER.JS"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

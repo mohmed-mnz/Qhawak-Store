@@ -1,0 +1,23 @@
+
+.container ul.switcher {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  .container ul.switcher li {
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    min-width: 105px;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .container ul.switcher li.active,
+  .container ul.switcher li:hover {
+    background-color: #F8F4E3;
+    color: #B57643 ;
+  }
+  
+  

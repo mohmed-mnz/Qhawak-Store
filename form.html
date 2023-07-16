@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalization.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>
+
+        Qahwak
+    </title>
+    <link rel="icon" type="image/x-icon" href="./imges/coffe icon.png">
+
+</head>
+
+<body>
+    <!-- This is My navbar component -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 container ">
+      <div class="container">
+
+        <a class="navbar-brand fw-b zoom-out" href="./index.html"><i class="bi bi-cup-hot-fill"></i> Qahwak</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex align-content-around">
+            <li class="nav-item">
+              <a class="nav-link active zoom-out" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom-out" href="./store.html">Our Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link zoom-out" href="./form.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav d-flex align-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-reset fs-2 fw-b" href="index.html">
+              <i class="bi bi-cart2 "> <span id="cart-counter" class="badge rounded-pill bg-primary"></span></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar code-->
+
+    <div class="container alert alert-secondary  rounded-4 mt-2 my-1">
+        <form id="form">
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                <p id="Npar"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+                <p id="Epar"></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="male" value="Male" name="gender">
+                  <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="female" value="Female" name="gender">
+                  <label class="form-check-label" for="female">Female</label>
+                </div>
+                <p id="Gpar"></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <select id="country" class="form-control">
+                  <option value="-1"></option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="USA">USA</option>
+                  <option value="UAE">UAE</option>
+                  <option value="UK">UK</option>
+                  <option value="KSA">KSA</option>
+                </select>
+                <p id="Cpar"></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" placeholder="Enter Your Message" style="width: 100%"></textarea>
+                <p id="Mpar"></p>
+              </div>
+            </div>
+
+          <div class="row">
+            <div class="col-12">
+              <button id="submit" class="btn btn-primary">Submit</button>
+              <button id="reset" class="btn btn-secondary">Reset</button>
+            </div>
+          </div>
+        </form>
+    </div>
+
+
+
+    <i class="bi bi-arrow-up-circle-fill up" id="up"></i>
+
+
+
+
+    <div class="container my-5">
+
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+          <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></i></a>
+
+              <!-- Google -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="https://www.linkedin.com/in/muhammed-almanzalawie-5b5522196" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+              <!-- Github -->
+              <a class="btn btn-link btn-floating btn-lg text-dark m-1 zoom-out" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark text-decoration-none zoom-out "
+              href="https://www.linkedin.com/in/muhammed-almanzalawie-5b5522196">Mnz</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+
+      </div>
+      <!-- End of .container -->
+      <!-- End My Footer -->
+    <script src="./js/Validate.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
